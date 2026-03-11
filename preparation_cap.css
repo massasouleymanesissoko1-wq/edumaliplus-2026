@@ -1,0 +1,11 @@
+
+
+.barre-orientation{
+    background: linear-gradient(rgba(39, 65, 49, 0.7),rgba(47, 81, 38, 0.7), rgba(1, 74, 11, 0.5)),url(./images/image\ cap.jpg)no-repeat center/cover;
+    height: 110vh;
+    width: 100%;
+}
+
+.cours{
+      color: #0a8f3c;
+}

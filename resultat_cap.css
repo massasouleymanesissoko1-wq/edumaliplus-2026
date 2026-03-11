@@ -1,0 +1,25 @@
+
+
+
+
+
+.barre-orientation{
+    background: linear-gradient(rgba(4, 46, 1, 0.7),rgba(2, 55, 16, 0.9), rgba(10, 55, 16, 0.8)),url(./images/image\ 14.jpg) center/cover;
+    height: 115vh;
+    width: 100%;
+    padding: 80px 20px;
+}
+
+
+
+
+
+@media(max-width:768px){
+    .barre-orientation{
+    background: linear-gradient(rgba(4, 46, 1, 0.7),rgba(2, 55, 16, 0.9), rgba(10, 55, 16, 0.8)),url(./images/image\ 14.jpg) center/cover;
+    height: 100vh;
+    width: 100%;
+    padding: 80px 20px;
+}
+
+}

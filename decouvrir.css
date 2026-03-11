@@ -1,0 +1,87 @@
+*{
+margin:0;
+padding:0;
+font-family:'Poppins',sans-serif;
+box-sizing:border-box;
+}
+
+/* Section statistiques */
+
+.stats{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:40px;
+padding:80px;
+}
+
+/* Carte */
+
+.stat{
+text-align:center;
+background:linear-gradient(rgba(228,252,235,0.3),rgba(217,250,211,0.3));
+padding:30px;
+box-shadow:0 5px 10px rgba(20,22,21,0.3);
+border-radius:10px;
+transition:0.3s;
+}
+
+/* effet hover */
+
+.stat:hover{
+transform:translateY(-18px);
+box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* chiffre */
+
+.count{
+font-size:60px;
+font-weight:bold;
+color:#035b25;
+display:inline-block;
+opacity:0;
+transform:translateY(40px);
+animation:countUp 1.5s ease forwards;
+}
+
+/* délai animation */
+
+.stat:nth-child(2) .count{
+animation-delay:0.3s;
+}
+
+.stat:nth-child(3) .count{
+animation-delay:0.6s;
+}
+
+.stat:nth-child(4) .count{
+animation-delay:0.9s;
+}
+
+/* texte */
+
+.stat p{
+margin-top:10px;
+font-size:18px;
+color:#333;
+}
+
+/* animation */
+
+@keyframes countUp{
+
+0%{
+opacity:0;
+transform:translateY(40px) scale(0.8);
+}
+
+60%{
+transform:scale(1.1);
+}
+
+100%{
+opacity:1;
+transform:translateY(0) scale(1);
+}
+
+}

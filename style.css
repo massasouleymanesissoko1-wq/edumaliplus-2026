@@ -1,0 +1,869 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+.barre{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.barre-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+  background: #ddfdd6;
+    box-shadow: 0 10px 15px rgba(151, 245, 162, 0.5);
+    top: 0;
+    left: 0;
+}
+
+.barre-left{
+    display: flex;
+    align-items: center;
+
+}
+
+.barre-text{
+    margin: 5px;
+    text-align: center;
+}
+
+.edu { color:  #0a8f3c; }
+.mali { color: gold; }
+.plus { color: red; }
+
+.logo-icon{
+    text-decoration: none;
+}
+
+.logo-emp{
+    border-radius: 50%;
+    
+}
+
+
+/*.logo-text{
+    font-size: 25px;
+    background: linear-gradient(90deg, #0a8f3c, #fcd116, #ce1126);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}*/
+
+.logo-desc{
+    font-size: 10px;
+    font-weight: 600;
+    color: rgb(5, 219, 5);
+}
+
+/*-----------Styling Barre right--------*/
+
+.barre-right{
+    display: flex;
+   align-items: center;
+   gap: 20px;
+  
+}
+
+.barre .right{
+    display: flex;
+    list-style: none;
+}
+
+.barre .right li a{
+    padding: 5px 15px;
+    color: rgb(4, 183, 63);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.barre .right li a:hover{
+    background: linear-gradient(rgba(15, 241, 53, 0.3));
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.btn-login{
+    padding: 0 20px;
+    background: green;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+
+.btn-login:hover{
+    background: #06c04d;
+     box-shadow: 0 8px 15px 6px rgba(74, 248, 74, 0.6);
+}
+
+
+
+
+
+
+/*---------Styling Barre Bottom-------*/
+
+.barre-bottom{
+    background: linear-gradient(rgba(39, 65, 49, 0.7),rgba(47, 81, 38, 0.7), rgba(1, 74, 11, 0.5)),url(./image/photo\ pro.webp)no-repeat center/cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+
+
+.bottom-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1100px;
+    text-align: center;
+   margin: 0 auto;
+   padding: 10px 15px;
+   align-items: center;
+    
+}
+
+
+
+.icon-box{
+    font-style: normal;
+}
+
+.text-box{
+   text-align: center;
+    background: linear-gradient(rgba(249, 251, 250, 0.3),rgba(98, 240, 59, 0.1));
+    color: #fff;
+    padding: 15px 5px;
+    border-radius: 30px;
+    border:1px solid #fff;
+    margin-bottom: 15px;
+    font-weight: 600;
+    
+}
+
+/*.text-gras{
+    font-size: 85px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #0a8f3c, #fcd116, #ce1126);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    margin-bottom: -40px;
+}*/
+
+.bottom-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 45px;
+}
+
+.bottom-desc{
+    font-size: 23px;
+    color: #fff;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    width: 70%;
+}
+
+.text-gras{
+    font-size:70px;
+}
+
+.rejoindre{
+     width: 60%;
+       display: flex;
+    justify-content: center;
+    align-items: center;
+  background: #03682a;
+  padding: 15px 30px;
+  border-radius: 30px;
+   box-shadow: 0 8px 15px 6px rgba(2, 148, 24, 0.4);
+   transition: all 0.3s ease;
+   margin: 40px auto;
+   color: #fff;
+   text-decoration: none;
+   font-size: 20px;
+
+}
+
+.rejoindre i{
+    margin: 0 10px;
+}
+
+.rejoindre:hover{
+    transform: translateY(-10px);
+    background: #06c04d;
+     box-shadow: 0 8px 15px 6px rgba(74, 248, 74, 0.6);
+
+}
+
+/*--------------Styling Barre Services-------*/
+.barre-services{
+    padding: 80px 20px;
+     background: linear-gradient(rgba(112, 237, 135, 0.2),rgba(191, 245, 177, 0.2));
+}
+
+.services-object{
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.services-text{
+    font-size: 60px;
+   margin-bottom: 20px;
+   color: #0a8f3c;
+     width: 70%;
+   
+
+}
+
+.services-desc{
+    font-size: 25px;
+    color: #1c9804;
+    width: 70%;
+    line-height: 1.6;
+}
+
+.services-grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    gap: 40px;
+    width: 55%;
+   
+}
+
+.services-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   background: linear-gradient(rgba(228, 252, 235, 0.3),rgba(246, 251, 245, 0.3));
+  margin-top: 40px;
+  padding: 10px 20px;
+  box-shadow: 0 8px 15px 6px rgba(1, 102, 16, 0.2);
+  border-radius: 15px;
+  padding: 0px;
+  transition: all 0.3s ease-in-out;
+    position: relative;
+  overflow: hidden;
+}
+
+
+/* Image */
+.services-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Overlay */
+.services-card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 128, 0, 0.25),
+        rgba(0, 128, 0, 0.6)
+    );
+    pointer-events: none;
+}
+
+/* Texte au-dessus de l’overlay */
+.services-card h2,
+.services-card p,
+.services-card a {
+    position: relative;
+    z-index: 1;
+}
+
+.services-card:hover{
+  transform: translateY(-15px);
+    box-shadow: 0 8px 15px 6px rgba(1, 140, 22, 0.4);
+}
+
+.services-card .services-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    margin-bottom: 10px;
+    color: linear-gradient(rgba(97, 233, 136, 0.3),rgba(246, 251, 245, 0.8));
+ 
+   
+}
+
+.card-text{
+    margin-bottom: 5px;
+    font-size: 17px;
+    color: #1c9804;
+}
+
+.card-desc{
+    color: #1c9804;
+    margin-bottom: 15px;
+    font-style: italic;
+    font-size: 13px;
+    margin: 10px;
+}
+
+.services-card a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 25px;
+    text-decoration: none;
+   background:#1c9804;
+    color: #fff;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.consulter:hover{
+    background: #33f07c;
+    color: #fff;
+     box-shadow: 0 8px 15px 6px rgba(24, 245, 57, 0.4);
+}
+
+
+/*-------------Styling Section footer-----*/
+
+
+.footer-desc{
+    text-align: center;
+    background: #015923;
+    padding: 30px;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+
+
+.barre-propos{
+     padding: 80px 20px;
+     background: linear-gradient(rgba(112, 237, 135, 0.2),rgba(191, 245, 177, 0.2));
+}
+
+.propos-objet{
+      margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.propos-text{
+    font-size: 60px;
+   margin-bottom: 20px;
+   color: #0a8f3c;
+     width: 70%;
+}
+
+
+.new-propos{
+     font-size: 30px;
+    color: #1c9804;
+    margin-bottom: 20px;
+    font-weight: 600;
+    width: 70%;
+    line-height: 1.6;
+}
+
+.propos-desc{
+    font-size: 25px;
+    color: #1c9804;
+    margin-bottom: 40px;
+    width: 70%;
+    line-height: 1.6;
+}
+
+.propos-box {
+    width: 80%;
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    
+}
+
+/* Image */
+.propos-image {
+    flex: 1;
+    text-align: center;
+    
+}
+
+.propos-img {
+    max-width: 580px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 6px 10px 4px rgba(197, 249, 210, 0.4);
+    
+   
+}
+
+/* Contenu */
+.propos-content {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Carte */
+.propos-card {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    background: linear-gradient(rgba(112, 237, 135, 0.2),rgba(191, 245, 177, 0.2));
+    padding: 18px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.propos-card i {
+    font-size: 26px;
+    color: #16a34a;
+}
+
+/* Texte */
+.propos-text-box {
+    margin-bottom: 6px;
+    font-size: 1.3rem;
+    color: #0a8f3c;
+}
+
+.propos-p {
+    text-align: justify;
+    line-height: 1.6;
+    color: #0a8f3c;
+}
+
+
+
+
+
+.slider{
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgb(32, 32, 32);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: slide 30s infinite;
+    background: linear-gradient( to bottom,rgba(0, 128, 0, 0.25),rgba(0, 128, 0, 0.6));
+    
+}
+
+/* Overlay + Images */
+@keyframes slide {
+    
+
+    0%   {  background: linear-gradient( to bottom,rgba(0, 128, 0, 0.25),rgba(0, 128, 0, 0.6)), url('etudiant/etudiant.jpg')no-repeat center center/cover; }
+
+    25%  {  background: linear-gradient( to bottom,rgba(0, 128, 0, 0.25),rgba(0, 128, 0, 0.6)), url('etudiant/etudiant\ 1.jpg')no-repeat center center/cover; }
+
+    40%  { background: linear-gradient( to bottom,rgba(0, 128, 0, 0.25),rgba(0, 128, 0, 0.6)), url('etudiant/etudiant\ 3.jpg')no-repeat center center/cover; }
+
+    60%  {  background: linear-gradient( to bottom,rgba(0, 128, 0, 0.25),rgba(0, 128, 0, 0.6)), url('etudiant/etudiant\ 4.jpg')no-repeat center center/cover; }
+
+    100%  {  background: linear-gradient( to bottom,rgba(0, 128, 0, 0.25),rgba(0, 128, 0, 0.6)), url('etudiant/etudiant\ 5.jpg')no-repeat center center/cover; }
+
+  
+}
+
+
+/* Texte centré */
+
+
+
+
+.slider-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #04a442;
+    background: linear-gradient(rgba(112, 237, 135, 0.2),rgba(191, 245, 177, 0.2));
+   
+    
+}
+
+.text-slider{
+      font-size: 60px;
+      margin: 60px;
+       width: 50%;
+       text-align: center;
+}
+.content{
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.content h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+       background: linear-gradient(90deg, #0a8f3c, #fcd116, #ce1126);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    
+}
+
+.content p{
+    font-size: 22px;
+   margin: 40px auto;
+    width: 50%;
+   
+}
+
+/* Bouton */
+.btn-slider{
+    background:#1c9804;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 30px;
+
+    transition: 0.3s;
+  
+}
+
+.btn-slider:hover{
+   background: #33f07c;
+    color: #fff;
+     box-shadow: 0 8px 15px 6px rgba(24, 245, 57, 0.4);
+}
+
+
+
+@media(max-width:768px){
+
+    .text-slider{
+        width: 80%;
+    }
+
+    .slider{
+        height: 450px;
+    }
+
+    .content h1{
+        font-size: 26px;
+    }
+
+    .content p{
+        font-size: 15px;
+    }
+
+
+    .text-slider{
+        font-size: 19px;
+    }
+
+}
+
+
+
+
+
+/* Responsive mobile A propos */
+@media (max-width: 768px) {
+
+    .propos-text{
+    width: 100%;
+    width: 100%;
+    font-size: 25px;
+    color: #1c9804;
+    line-height: 1.6;
+    }
+
+    .propos-desc{
+        font-size: 17px;
+    }
+
+    .new-propos{
+        font-size: 20px;
+    }
+    .propos-box {
+        flex-direction: column;
+        text-align: center;
+        width: 95%;
+    }
+
+    .propos-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .propos-p {
+        text-align: justify;
+    }
+
+    .propos-card i {
+    font-size: 40px;
+    color: #16a34a;
+}
+
+.propos-img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+   
+}
+
+
+}
+
+
+   
+
+
+/*-----------------Styling Section Examens Grid----------------*/
+
+.barre-examens{
+    background: #e3fade;
+     padding: 70px 0;
+     border-top: 6px solid #04a442;
+    
+    
+}
+
+.examens-object{
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 70px 15px;
+    color: #333;
+}
+
+.examens-text{
+    font-size: 40px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    color: #1c9804;
+}
+
+.examens-desc{
+    width: 70%;
+  padding-top: 20px;
+   margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+     color: #1c9804;
+}
+
+
+.examens-grid{
+    margin-top: 30px;
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(350px, 1fr));
+gap: 30px;
+
+}
+
+
+.examens-card:hover{
+  transform: translateY(-15px);
+    box-shadow: 0 8px 15px 6px rgba(1, 140, 22, 0.4);
+}
+
+
+
+
+
+
+
+
+
+
+
+/*-----------MEDIA QUERY-------*/
+
+@media (max-width:768px){
+    
+    /*--------Syling Query Logo Officiel----*/
+
+    .barre-bottom{
+    background: linear-gradient(rgba(39, 65, 49, 0.7),rgba(47, 81, 38, 0.7), rgba(1, 74, 11, 0.5)),url(./image/photo\ pro.webp)no-repeat center/cover;
+    height: 80vh;
+    width: 100%;
+    
+    display: flex;
+}
+
+
+
+.text-gras{
+   
+    margin-bottom: -10px;
+}
+
+
+    .logo-emp{
+        width: 30%;
+    }
+
+    .barre-top{
+    padding: 10px 20px;
+    
+}
+
+.logo-text{
+    font-size: 20px;
+}
+
+.logo-desc{
+    font-size: 9px;
+}
+
+
+
+/*-------------Styling Barre Right---*/
+
+.barre .right{
+    display: none;
+}
+
+.btn-login{
+    display: none;
+}
+
+
+.rejoindre{
+    width: 100%;
+     font-size: 14px;
+}
+
+/*--------MEDIA QUERY BOTTOM---*/
+.text-box{
+font-size: 15px;
+}
+
+.bottom-text{
+    font-size: 20px;
+    
+}
+
+.text-gras{
+    font-size: 30px;
+}
+
+.bottom-desc{
+    font-size: 15px;
+    color: #fff;
+    text-align: left;
+    line-height: 30px;
+}
+
+
+/*------------Styling Services ------*/
+
+.barre-services{
+    width: 100%;
+ 
+}
+
+.services-object{
+    width: 100%;
+   
+}
+
+
+.services-text{
+    width: 100%;
+    font-size: 20px;
+}
+
+
+.services-grid{
+    width: 100%;
+    gap: 0px;
+  
+}
+
+
+.services-desc{
+    width: 100%;
+    font-size: 16px;
+    color: #1c9804;
+    line-height: 1.6;
+}
+
+.card-desc{
+    font-size: 13px;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+/*---------Styling Media Query examens---------*/
+
+.examens-object{
+    width: 100%;
+    
+    padding: 20px 15px;
+    color: #333;
+}
+
+
+.examens-text{
+    width: 100%;
+    font-size: 25px;
+}
+
+.examens-desc{
+    width: 100%;
+    font-size: 17px;
+}
+
+
+
+.footer-desc{
+    width: 100%;
+   font-size: 15px;
+}
+
+/*------------Styling A propos----*/
+ 
+
+}

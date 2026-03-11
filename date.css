@@ -1,0 +1,505 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+.barre{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.barre-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+  background: #ddfdd6;
+    box-shadow: 0 10px 15px rgba(151, 245, 162, 0.5);
+    top: 0;
+    left: 0;
+}
+
+.barre-left{
+    display: flex;
+    align-items: center;
+
+}
+
+.barre-text{
+    margin: 5px;
+    text-align: center;
+}
+
+.edu { color: green; }
+.mali { color: gold; }
+.plus { color: red; }
+
+.logo-icon{
+    text-decoration: none;
+}
+
+.logo-emp{
+    border-radius: 50%;
+}
+
+
+.logo-text{
+    font-size: 25px;
+    background: linear-gradient(90deg, #0a8f3c, #fcd116, #ce1126);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logo-desc{
+    font-size: 10px;
+    font-weight: 600;
+    color: rgb(5, 219, 5);
+}
+
+/*-----------Styling Barre right--------*/
+
+.barre-right{
+    display: flex;
+   align-items: center;
+   gap: 20px;
+  
+}
+
+.barre .right{
+    display: flex;
+    list-style: none;
+}
+
+.barre .right li a{
+    padding: 5px 15px;
+    color: rgb(4, 183, 63);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.barre .right li a:hover{
+    background: linear-gradient(rgba(15, 241, 53, 0.3));
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.btn-login{
+    padding: 0 20px;
+    background: green;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-date-whatsapp{
+     display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    background: #03682a;
+    border-radius: 30px;
+    align-items: center;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.btn-date-whatsapp i{
+    margin: 0 10px;
+}
+
+.btn-date-whatsapp:hover{
+    transform: translateY(-10px);
+    background: #06c04d;
+     box-shadow: 0 8px 15px 6px rgba(74, 248, 74, 0.6);
+
+}
+
+
+/*------------Styling Date des Examens Nationaux--------*/
+
+
+.barre-date{
+ background: linear-gradient(rgba(112, 237, 135, 0.2),rgba(191, 245, 177, 0.2));
+ padding: 80px 20px;
+
+}
+
+.date-object{
+     max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 80px 30px;
+}
+
+.date-box-text{
+     margin-bottom: 30px;
+    font-size: 65px;
+    color: #fff;
+     background: linear-gradient(90deg, #0a8f3c, #fcd116, #ce1126);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.date-box-p{
+    font-size: 25px;
+    color: #fff;
+    line-height: 1.6;
+}
+
+
+.barre-date-examens{
+    background: linear-gradient(rgba(4, 46, 1, 0.7),rgba(2, 55, 16, 0.9), rgba(10, 55, 16, 0.8)),url(./images/image\ 12.jpg)no-repeat center/cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.barre-date{
+    padding: 60px 20px;
+  
+    
+}
+
+.date-examens{
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #0a8f3c;
+
+}
+
+.date-text{
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.date-desc{
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+.date-table{
+    margin-top: 30px;
+}
+
+.table-text{
+    background: #0a8f3c;
+    color: #ddfdd6;
+    padding: 5px 10px;
+    font-size: 22px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.table-examens-def{
+margin: 0 auto;
+}
+
+
+.table-examens-def{
+    margin-top: 20px;
+    border: 2px solid #0a8f3c;
+   border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(15, 241, 53, 0.3);
+    border-collapse: collapse;
+}
+.table-examens{
+    margin-top: 20px;
+    border: 2px solid #0a8f3c;
+   border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(92, 93, 92, 0.3);
+    border-collapse: collapse;
+}
+
+.card-table th{
+    background: #0a8f3c;
+    color: #f0f6f2;
+    padding: 10px 50px;
+
+   
+}
+
+tbody td{
+    padding: 15px;
+
+}
+
+tbody tr, td, th{
+   border: 1px solid #83f1ae;
+}
+
+tbody tr:nth-child(even){
+    background: #b9f4d0;
+}
+
+.barre-btn-date{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0px;
+    margin: 0px auto;
+    background: linear-gradient(rgba(1, 111, 22, 0.5),rgba(19, 93, 0, 0.5));
+    
+}
+
+.resultat-date{
+    width: 28%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  background: #03682a;
+  padding: 15px 30px;
+  border-radius: 30px;
+   box-shadow: 0 8px 15px 6px rgba(2, 148, 24, 0.4);
+   transition: all 0.3s ease;
+   margin: 30px auto;
+   color: #fff;
+   text-decoration: none;
+   font-size: 20px;
+}
+
+
+
+.resultat-date:hover{
+    transform: translateY(-10px);
+    background: #06c04d;
+     box-shadow: 0 8px 15px 6px rgba(74, 248, 74, 0.6);
+
+}
+
+
+.footer-desc{
+    text-align: center;
+    background: #015923;
+    padding: 30px;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    /* Header */
+    .barre-top {
+        padding: 10px 15px;
+    }
+
+    .barre .right,
+    .btn-login {
+        display: none;
+    }
+
+    .logo-text {
+        font-size: 18px;
+    }
+
+    .logo-desc {
+        font-size: 9px;
+    }
+
+    /* Titres */
+    .date-text {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .date-desc {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .table-text {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    /* 🔥 TRANSFORMATION DU TABLEAU */
+   
+    .table-examens,
+    .table-examens thead,
+    .table-examens tbody,
+    .table-examens tr,
+    .table-examens th,
+    .table-examens td {
+        display: block;
+        width: 100%;
+    }
+
+    .table-examens-def,
+    .table-examens-def thead,
+    .table-examens-def tbody,
+    .table-examens-def tr,
+    .table-examens-def th,
+    .table-examens-def td {
+        display: block;
+        width: 100%;
+    }
+    
+
+    .table-examens thead {
+        display: none;
+    }
+
+    .table-examens-def thead {
+        display: none;
+    }
+    
+
+     .table-examens-def tr {
+        background: #ffffff;
+        margin-bottom: 15px;
+        border-radius: 10px;
+        box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+        padding: 10px;
+    }
+
+      .table-examens tr {
+        background: #ffffff;
+        margin-bottom: 15px;
+        border-radius: 10px;
+        box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+        padding: 10px;
+    }
+   
+
+    .table-examens td{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        font-size: 12px;
+        border: none;
+        border-bottom: 1px solid #e0e0e0;
+    }
+
+     .table-examens-def td{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        font-size: 12px;
+        border: none;
+        border-bottom: 1px solid #e0e0e0;
+    }
+
+    .table-examens td:last-child {
+        border-bottom: none;
+    }
+
+    .table-examens-def td:last-child {
+        border-bottom: none;
+    }
+
+
+    /* Labels automatiques */
+     .table-examens-def td:nth-child(1)::before { content: "DATES"; }
+    .table-examens-def td:nth-child(2)::before { content: "HORAIRES";}
+    .table-examens-def td:nth-child(3)::before  {content: "MATIERES";}
+
+    /* Labels automatiques */
+    .table-examens td:nth-child(1)::before { content: "DATES"; }
+    .table-examens td:nth-child(2)::before { content: "HORAIRES";}
+    .table-examens td:nth-child(3)::before { content: "TAL"; }
+    .table-examens td:nth-child(4)::before { content: "TLL"; }
+    .table-examens td:nth-child(5)::before { content: "TSE"; }
+    .table-examens td:nth-child(6)::before { content: "TSECO"; }
+    .table-examens td:nth-child(7)::before { content: "TSEXP"; }
+    .table-examens td:nth-child(8)::before { content: "TSS"; }
+
+    .table-examens td::before {
+        font-weight: 600;
+        color: #0a8f3c;
+    }
+
+    .table-examens-def td::before {
+        font-weight: 600;
+        color: #0a8f3c;
+    }
+
+    /*----------Footer-----------*/
+.footer-desc{
+    width: 100%;
+   font-size: 15px;
+}
+
+.barre-btn-date{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+  
+}
+
+
+.resultat-date{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    width: 95%;
+   font-size: 15px;
+}
+
+.btn-date-whatsapp{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 14px;
+    background: #069a3f;
+    border-radius: 30px;
+    align-items: center;
+    color: #fff;
+
+}
+
+.date-object{
+    width: 100%;
+    margin: 0px;
+    padding: 70px 20px;
+}
+
+
+
+.date-box-text{
+    width: 100%;
+    font-size: 29px;
+    padding: 70px 10px;
+    margin-bottom: -10px;
+   
+}
+
+.date-box-p{
+    width: 100%;
+    font-size: 17px;
+    text-align: left;
+    
+}
+
+}

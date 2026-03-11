@@ -1,0 +1,25 @@
+
+
+.barre-orientation{
+    background: linear-gradient(rgba(39, 65, 49, 0.7),rgba(47, 81, 38, 0.7), rgba(1, 74, 11, 0.5)),url(./images/image\ 1.jpg) center/cover;
+    height: 100vh;
+    width: 100%;
+    padding: 80px 20px;
+}
+
+.preparation_def{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 30px;
+}
+
+
+.revision-def{
+      background: #03682a;
+       color: #ffff;
+       text-decoration: none;
+       font-size: 20px;
+       padding: 10px 15px;
+       border-radius: 30px;
+       font-weight: 600;
+}
